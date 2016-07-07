@@ -1,0 +1,302 @@
+https://www.facebook.com/photo.php?fbid=1770133536604930&set=a.1552833068334979.1073741832.100008249022519&type=3&theater&notif_t=comment_mention&notif_id=1467293229924776
+
+
+gabriel watson area de tracking para cambiar apn a ="*"
+
+quality center: http://oll-hpalm:8080/qcbin/start_a.jsp
+
+para poder incluir angular templates hay problema con seguridad en chrome, otra solucion es usar un webserver
+
+https://egghead.io
+
+cd "C:\Program Files (x86)\Google\Chrome\Application"
+
+file:///D:/CURSO%20COURSERA/BOOTSTRAP/SEMANA%201/EJERCICIOS/conFusion/index.html#/
+chrome.exe --allow-file-access-from-files
+
+
+iniciar servidor jason
+
+ json-server --watch db.json
+
+=====================================
+levantar servidor grunt serve
+====================================
+
+test unit karma
+
+ cd "D:\CURSO COURSERA\BOOTSTRAP\SEMANA 1\EJERCICIOS\conFusion\test"
+
+
+ karma start karma.conf.js
+
+protractor
+==============================
+set PROXY=http://exa46913:cbavates10S@amba-proxy.ctimovil.net:8083
+set HTTP_PROXY=%PROXY%
+set HTTPS_PROXY=%PROXY% 
+webdriver-manager update
+
+
+yeoman
+
+=========================
+npm install -g yo
+npm install -g grunt-cli bower yo generator-karma generator-angular
+npm install -g generator-angular
+
+npm install -g karma jasmine-core phantomjs
+
+para instalar yo angular
+
+
+
+git:
+==================================
+git config --global http.proxy http://exa46913:cbavates10S@amba-proxy.ctimovil.net:8083
+
+git config -- global user.name "fabian"
+git config -- global user.email "gallardo_fabian@hotmail.com"
+
+
+git commit -m "nota"
+
+git log --online
+
+https://git-scm.com/book/es/v1/Ramificaciones-en-Git-Procedimientos-b%C3%A1sicos-para-ramificar-y-fusionar
+
+para borrar una rama
+
+
+NPM /NODE PROXY PROBLEMS
+========
+1	)
+I run this command:
+npm config set strict-ssl false
+
+
+2) Then set npm to run with http, instead of https:
+npm config set registry "http://registry.npmjs.org/"
+
+3) npm config set proxy http://exa46913:cbavates10S@amba-proxy.ctimovil.net:8083
+
+
+BOWER PROXY PROBLEMS
+
+en un archivo .bowerrc , dentro del directorio donde esta bower.json
+
+{
+  "https-proxy" : "http://exa46913:cbavates10S@amba-proxy.ctimovil.net:8083",
+  "http-proxy"  : "http://exa46913:cbavates10S@amba-proxy.ctimovil.net:8083",
+  "strict-ssl": false
+  }
+
+
+
+export HTTPS_PROXY=http://amba-proxy.ctimovil.net:8083/
+
+interno neuro:1972 
+
+
+-	Existen 3 bases de PRETESTING (ARPUPROD – APUCCARD – APUEBILL)
+
+-	Debajo en el mail están los TNSNAMES de cada una para que las puedan agregar.    El equipo es PIRAN.   Los esquemas de la base son los mismos que  los productivos pero con la clave:  claro246
+
+
+fonoaudiologia: jazmin 155063554.
+Mañana a la 16 - 19:30.
+
+hectorariel_martinez@hotmail.com
+
+URL PCRF
+http://sprweb.oss.ar.telmex/
+http://sprweb.oss.ar.telmex/select_user.html
+
+\\10.48.126.95\share\sistemas\desarrollo
+
+EQUIPO SILVIA, PLANILLAS.
+
+\\7vzf6h1.ctimovil.net\INTERFACES_SWITCHES\090-Provisioning
+
+
+fgrep -i -n -r 'Iniciando' turbo* 
+fgrep -i -n -r 'POLITICA' turbo*
+fgrep -i -n -r '991619349' turbo*
+
+
+
+levantar pieres
+
+ctl_control start
+
+para implementar una version
+cd /comptel/ilink/releases
+
+./manage_releases -uninstall JAVA_PCRF_PCRF_V1_REL_1.0.0
+
+
+
+
+./manage_releases -install /comptel/ilink/packages/JAVA_PCRF_PCRF_V1-1.0.0.cpio /comptel/ilink
+
+
+http://pieres.claro.amx:44080/sas5/Frames.jsp
+user:trainee
+pass:passtrainee
+
+usario unix:
+  user: dilink
+    pass: ilink00
+
+CREATE DATABASE LINK SPB1_TURBOWS
+  CONNECT TO TURBOWS IDENTIFIED BY &PASSWORD
+   USING 'SPB1';
+
+
+URL EMBLACOM
+http://10.104.191.135:8080/es/#/login
+https://vpnmovil.claro.com.ar/#/login
+
+login: cesar
+Password: Hola234
+
+ACCESO EQUIPO PARA PCUBE
+
+usuario pass:pcube/pcube
+IP: 10.92.17.99
+
+ir a la carpeta /opt/pcube/sm/server/bin
+
+correr el siguiente comando ./p3subs --show -s 5491121571200
+
+usar esta VPN: AMX ARGENTINA SA  <http://10.104.191.135:8080/es/app#/companies/4234339> 	
+
+
+url de NPS:
+http://192.168.19.168:8600/ProfileInterface.jsp
+
+admin/admin
+
+para ver si tengo procesos corriendo:ps -xfu exa46913
+
+usuario escandio: cti6984/andres00
+
+
+http://bolivar0.claro.amx:44080/sas5/Frames.jsp
+testing
+testing00
+
+
+
+http://arstealth.claro.amx/
+darstealth.claro.amx:7777
+
+DTH:
+IP Intraway produccion:10.136.123.140
+IP Intraway maqueta:10.136.123.179
+
+
+usuario:paraguay
+pass:paraguay171tmx
+
+configuracion proxy:
+=====================
+amba-proxy1.ctimovil.net
+puerto:8083
+marcar no usar proxy para direcciones locales
+opciones avanzadas:*192.168.56.1*;*turbo*;*.cti;*claro;*wls_utc*;*arstealth*
+
+WEBLOGIC VILLALONGA
+========================
+usuario:weblogic
+password:weblogic1036
+========================
+
+
+LOCAL
+=================
+usuario:weblogic
+pass:fabian00
+===================
+
+directorio de los domains:C:\Oracle\Middleware\user_projects\domains\admin1
+
+
+
+URL: http://localhost:7001/console (poner que no salga por el proxy en direcciones locales)
+
+jdbc/OnlineARDS ... usuario: turbows
+                    pass: turbo01
+
+==============
+http://192.168.56.1:7001/wls_utc/?wsdlUrl=http%3A%2F%2F192.168.56.1%3A7001%2FTurboWS%2FTurboWSService%3FWSDL
+
+PCRF
+==========
+Para editar línea en plataforma PCRF
+
+https://securesprweb.oss.ar.telmex/sprabm.php
+
+user: aherrera
+pass: andres1234
+
+Para ver sesiones activas
+
+http://sprweb.oss.ar.telmex/
+
+convertidor de bytes
+
+http://mon-ip.awardspace.com/convertidor_de_bytes.php
+
+
+URLS: PCRF: 
+
+PCRF1 que apunta a http://10.92.59.69:8080/axis/services/MessageService <http://10.92.59.69:8080/axis/services/MessageService> 
+
+PCRF2 que apunta a http://10.48.34.77:8080/axis/services/MessageService <http://10.48.34.77:8080/axis/services/MessageService> 
+
+
+NUEVA providerURL_PCRF=http://10.92.59.77:8080/axis/services/MessageService
+userPCRF=admin
+
+
+CLAVE MAGDALA2(no esta asociada a identity)
+Usuario: exa46913
+Pass: Clave2015
+
+ciul alexis: 23532666589
+
+
+REPORTAR PROBLEMAS PCRF:
+toma nota de contactar a Enrique Irene
+
+
+TCY REMEDY soporte red transp/ip --> pedido soporte --> packet core --> probl afecta servicio
+sino, mandas un mail a noc@claro.com.ar
+
+EQUIPO REMOTO DESIGNER: 10.92.48.41
+
+
+nro_ticket : 09056641, 
+para apuntar MAQUETA PCRF
+Luis Esteban Napoli
+03:25 p.m.
+pcrflabo.claro.com.ar 
+
+y la ruta te la busco
+ ---------------------------------------------------------------------------Luis Esteban Napoli
+03:27 p.m.
+soporte conmutacion
+pedido de cambio
+hlr
+
+
+certificado
+keytool -list -v -keystore blackberry.certificates
+
+keytool -delete -alias emblacom -keystore blackberry.certificates
+keytool -import -trustcacerts -alias emblacom -file emblacom.cer -keystore blackberry.certificates
+
+
+keytool -delete -alias blackberry -keystore blackberry.certificates
+keytool -import -trustcacerts -alias blackberry -file bb_cer.cer -keystore blackberry.certificates
