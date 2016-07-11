@@ -41,6 +41,10 @@ console.log(loc.pageY);
 });
 
 
+
+
+
+
 var displayWorks = function()
   {
      for (index in jasonWorks.works)
@@ -112,5 +116,5 @@ function inName(name) {
 }
 
 
-
+proyects.display();
 

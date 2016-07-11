@@ -3,6 +3,38 @@ var skills = ["Analista","Programador"];
                       {"tel" : "3515178410"}];
 */
 
+var proyects = {
+"proyects" :[
+		{
+		"yearSince" : "2016",
+		"yearUntil"   : "Today",
+		"name"        : "DTH",
+		"description" : "alta baja mensajes del servicio de telvision satelital para Claro Paraguay, Uruguay y Argentina"
+	            }
+		]
+	}
+	;
+
+proyects.display = function ()
+{
+   for (var index in proyects.proyects)
+  {
+     $("#projects").append(HTMLprojectStart); 
+
+    var proyectTitle = HTMLprojectTitle.replace("%data%",proyects.proyects[index].name);
+    $(".project-entry:last").append(proyectTitle);
+
+     var projectDates = HTMLprojectDates.replace("%data%",proyects.proyects[index].yearSince + " " + proyects.proyects[index].yearUntil );
+    $(".project-entry:last").append(projectDates);
+
+     var projectDescription = HTMLprojectDescription.replace("%data%",proyects.proyects[index].description);
+    $(".project-entry:last").append(projectDescription);
+
+    
+
+  }
+};
+
 var jasonWorks = {
 	"works": [{
 		"yearSince": "2006",
